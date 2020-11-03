@@ -13,18 +13,34 @@
         display: flex;
         .trip-item {
             position: relative;
-            .trip__img:nth-child(1) {
-                width: 619px;
-                height: 354px;
-                margin: 0;
+            .trip__img {
+                margin-left: -19px;
             }
             .trip__subtitle {
                 position: absolute;
                 top: 267px;
+                left: 26px;
                 color: #fff;
                 font-size: 50px;
                 font-weight: 700;
             }
+        }
+    }
+    &__secondLine {
+        display: flex;
+        .trip-item {
+            position: relative;
+        }
+        .trip__img {
+            margin-left: -19px;
+        }
+        .trip__subtitle {
+            position: absolute;
+            top: 196px;
+            left: 26px;
+            color: #fff;
+            font-size: 50px;
+            font-weight: 700;
         }
     }
 }

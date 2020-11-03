@@ -139,16 +139,30 @@ button {
     display: flex; }
     .trip__firstLine .trip-item {
       position: relative; }
-      .trip__firstLine .trip-item .trip__img:nth-child(1) {
-        width: 619px;
-        height: 354px;
-        margin: 0; }
+      .trip__firstLine .trip-item .trip__img {
+        margin-left: -19px; }
       .trip__firstLine .trip-item .trip__subtitle {
         position: absolute;
         top: 267px;
+        left: 26px;
         color: #fff;
         font-size: 50px;
         font-weight: 700; }
+  .trip__secondLine {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .trip__secondLine .trip-item {
+      position: relative; }
+    .trip__secondLine .trip__img {
+      margin-left: -19px; }
+    .trip__secondLine .trip__subtitle {
+      position: absolute;
+      top: 196px;
+      left: 26px;
+      color: #fff;
+      font-size: 50px;
+      font-weight: 700; }
 
 .line {
   background-color: #006DFE;

@@ -1,0 +1,30 @@
+.trip {
+    padding: 563px 0 131px 0;
+    &__info {
+        display: flex;
+        align-items: center;
+    }
+    &__link {
+        margin-left: auto;
+        color: $blue_text;
+        text-transform: uppercase;
+    }
+    &__firstLine {
+        display: flex;
+        .trip-item {
+            position: relative;
+            .trip__img:nth-child(1) {
+                width: 619px;
+                height: 354px;
+                margin: 0;
+            }
+            .trip__subtitle {
+                position: absolute;
+                top: 267px;
+                color: #fff;
+                font-size: 50px;
+                font-weight: 700;
+            }
+        }
+    }
+}

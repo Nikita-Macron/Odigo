@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+ul,li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    background: none;
+    display: block;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+@import 'bases/variables';
+@import 'blocks/places';
+@import 'blocks/buttons';
+@import 'blocks/titles';
+@import 'blocks/benefits';
+@import 'blocks/trip';
+@import 'blocks/line';

@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
 
@@ -23,7 +24,7 @@ button {
 }
 
 .container {
-    width: 1440px;
+    width: 1265px;
     margin: 0 auto;
 }
 
@@ -34,3 +35,4 @@ button {
 @import 'blocks/benefits';
 @import 'blocks/trip';
 @import 'blocks/line';
+@import 'blocks/media';

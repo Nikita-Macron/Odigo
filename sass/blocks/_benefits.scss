@@ -2,14 +2,15 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 1033px;
+    top: 733px;
     width: 1262px;
     padding: 93px 100px 112px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
     background-color: #fff;
     &__wrapper {
         display: flex;
-        margin-top: 120px;       
+        margin-top: 120px;
+        width: 100%;       
     }
     &-item {
         width: 320px;

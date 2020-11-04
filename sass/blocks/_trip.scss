@@ -11,8 +11,12 @@
     }
     &__firstLine {
         display: flex;
+        margin-top: 26px;
         .trip-item {
             position: relative;
+            & img {
+                height: 353px;
+            }
             .trip__img {
                 margin-left: -19px;
             }
@@ -33,6 +37,7 @@
         }
         .trip__img {
             margin-left: -19px;
+            max-width: 405px;
         }
         .trip__subtitle {
             position: absolute;

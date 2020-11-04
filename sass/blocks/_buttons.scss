@@ -1,5 +1,8 @@
 .btn {
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1B7DFF;
     font-size: 24px;
     font-weight: 500;
@@ -8,4 +11,8 @@
     width: 171px;
     height: 58px;
     outline: none;
+    transition: 0.5s all;
+    &:hover {
+        background-color: #1973EA;
+    }
 }

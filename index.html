@@ -7,7 +7,7 @@
     <!-- Подключение шрифта -->
     <link rel="stylesheet" href="css/font.css">
     <!-- Подключение css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
     <!-- Первая секция на сайте -->
@@ -15,7 +15,9 @@
         <div class="container">
             <header class="header">
                 <!-- Логотип сайта -->
-                <img src="img/logo.svg" alt="Logotype" class="logo">
+                <a href="#">
+                    <img src="img/logo.svg" alt="Logotype" class="logo">
+                </a>
                 <!-- Меню сайта -->
                 <ul class="header__menu">
                     <li>
@@ -36,13 +38,29 @@
             <p class="places__descr">
                 Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door.
             </p>
+            <div class="places__questions">
+                <div class="places-item">
+                    <div>
+                        <div class="places__circle"></div>
+                        <div class="places__question">What would you like to do?</div>
+                    </div>
+                    <div class="places__line"></div>
+                </div>
+                <div class="places-item">
+                    <div>
+                        <div class="places__circle"></div>
+                        <div class="places__question">What would you like to do?</div>
+                    </div>
+                    <div class="places__line"></div>
+                </div>
+                <div class="btn places_btn">Search</div>
+            </div>
         </div>
     </section>
     <!-- Вторая секция на сайте -->
     <section class="benefits">
-        <div class="container">
             <!-- Загаловок секции -->
-            <h2 class="title">
+            <h2 class="title benefits_title">
                 Benefits of Odigo
             </h2>
             <!-- Обертка для информации -->
@@ -75,7 +93,6 @@
                     <a href="#" class="benefits__link">Learn more<img src="img/icons/arrow.svg" alt="Arrow" class="benefits__link__arrow"></a>
                 </div>
             </div>
-        </div>
     </section>
     <!-- Третья секция на сайте -->
     <section class="trip">
